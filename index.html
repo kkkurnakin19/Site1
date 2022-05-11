@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Плавание</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+  <header>
+    <div class="top">
+      <a href="#top" style="position:fixed;bottom:30px;right:30px"><img src="../IMAGES/Стрелочка наверх.png" alt=""></a>
+    </div>
+    <nav>
+      <a href="./index.html">
+        <img src="./IMAGES/Иконка.svg" alt="" class="icon">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="./HTML/swimmers.html">Пловцы</a></li>
+          <li><a href="./HTML/razriadi.html">Разряды</a></li>
+          <li><a href="./HTML/ikipirovka.html">Экипировка</a></li>
+          <li><a href="./HTML/history_of_swimming.html">История плавания</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Плавание</h1>
+        <p>Один из видов профессионального спорта</p>
+      <a href="" class="hero-btn">Подробнее о плавании</a>
+    </div>
+  </header>
+
+  <section class="course">
+    <h1>Основные термины в плавании</h1>
+    <div class="row">
+      <div class="course-col">
+        <h3>Стили плавания</h3>
+          <p>Дисциплины плавания, в которых пловцу разрешается плыть определёнными способами. В настоящее время все пловцы используют кроль.</p>
+      </div>
+      <div class="course-col">
+        <h3>Бассейны</h3>
+          <p>прямоугольная ванна, предназначенная для занятий водными видами спорта.</p>
+      </div>
+      <div class="course-col">
+        <h3>Экипировка</h3>
+          <p>Экипировка для плавания призвана обеспечить максимальный комфорт, а также снизить сопротивление воды.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="campus">
+    <h1>Популярные пловцы</h1>
+
+    <div class="row">
+      <div class="AM">
+        <img src="./IMAGES/imgonline-com-ua-Resize-6e2E4fc65UxX5.jpg" alt="2">
+        <div class="layer">
+          <h3>Adam Peaty</h3>
+        </div>
+      </div>
+      <div class="MF">
+        <img src="./IMAGES/imgonline-com-ua-Resize-3ru7cMAV32j.jpg" alt="3" class="gg6">
+        <div class="layer gg1">
+          <h3>Mikle Felps</h3>
+        </div>
+      </div>
+      <div class="LC">
+        <img src="./IMAGES/LC.jpg" alt="4">
+        <div class="layer">
+          <h3>Laslo Chech</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="text">
+      <h2>Плавание</h2>
+      <div class="icons">        
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-telegram"></i>
+      </div>
+      <h2 class="gg8">© 2022 Swimming Federation Almetyevsk</h2>
+    </div>
+  </footer>
+
+  <script>
+
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+
+  </script>
+
+  <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>

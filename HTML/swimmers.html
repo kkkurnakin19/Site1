@@ -1,0 +1,129 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/swimming.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Пловцы</title>
+</head>
+<body id="top">
+  <header>
+    <div class="top">
+      <a href="#top" style="position:fixed;bottom:30px;right:30px"><img src="../IMAGES/Стрелочка наверх.png" alt=""></a>
+    <nav>
+      <div class="logo">
+        <a href="../index.html">
+            <img src="../IMAGES/Иконка.svg" alt="" class="icon">
+        </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../HTML/swimmers.html">Пловцы</a></li>
+          <li><a href="../HTML/razriadi.html">Разряды</a></li>
+          <li><a href="../HTML/ikipirovka.html">Экипировка</a></li>
+          <li><a href="../HTML/history_of_swimming.html">История плавания</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-header">
+      <h1>Пловцы</h1>
+      <p>Спортсмены. Плавание – один из самых популярных и богатых на рекорды видов спорта.</p>
+    </div>
+    <div class="btn">
+      <a href="" class="btn1">Подробнее</a>
+    </div>
+  </header>
+  <h1 class="gg1">Рекордсмены</h1>
+    <div class="container">
+        <div class="card-1 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен1.jpg" alt="">
+                <h3>Владимир Морозов</h3>
+              </div>
+        </div>
+        <div class="card-2 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен2.jpg" alt="">
+                <h3>Климент Колесников</h3>
+              </div>
+        </div>
+        <div class="card-3 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен3.jpg" alt="">
+                <h3>Данила Изотов</h3>
+              </div>
+        </div>
+        <div class="card-4 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен4.jpg" alt="">
+            <h3>Никита Лобинцев</h3>
+            </div>
+        </div>
+        <div class="card-5 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен5.jpg" alt="">
+            <h3>Олег Костин</h3>
+            </div>
+        </div>
+        <div class="card-6 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен6.jpg" alt="">
+            <h3>Антон Чупков</h3>
+            </div>
+        </div>
+        <div class="card-7 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен7.jpg" alt="">
+            <h3>Илья Бородин</h3>
+            </div>
+        </div>
+        <div class="card-8 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен8.jpg" alt="">
+            <h3>Мартин Малютин</h3>
+            </div>
+        </div>
+        <div class="card-9 cards">
+            <div class="layer">
+            <img src="../IMAGES/Рекордсмен9.jpg" alt="">
+            <h3>Евгений Рылов</h3>
+            </div>
+        </div>
+        <div class="card-10 cards">
+          <div class="layer">
+          <img src="../IMAGES/Рекордсмен10.jpg" alt="">
+          <h3>Кирилл Пригода</h3>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <h2>Плавание</h2>
+        <div class="icons">        
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+        <h2 class="gg8">© 2022 Swimming Federation Almetyevsk</h2>
+    </footer>
+    <script>
+
+        let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+    
+      </script>
+    
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>

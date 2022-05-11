@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/ikipirovka.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Экипировка</title>
+</head>
+<body id="top">
+  <header>
+    <div class="top">
+      <a href="#top" style="position:fixed;bottom:30px;right:30px"><img src="../IMAGES/Стрелочка наверх.png" alt=""></a>
+    <nav>
+      <div class="logo">
+        <a href="../index.html">
+            <img src="../IMAGES/Иконка.svg" alt="" class="icon">
+        </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../HTML/swimmers.html">Пловцы</a></li>
+          <li><a href="../HTML/razriadi.html">Разряды</a></li>
+          <li><a href="../HTML/ikipirovka.html">Экипировка</a></li>
+          <li><a href="../HTML/history_of_swimming.html">История плавания</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-header">
+      <h1>Экипировка</h1>
+      <p>Экипировка для плавания призвана обеспечить максимальный комфорт, а также снизить сопротивление воды.</p>
+    </div>
+  </header>
+  <main>
+    <h1>Основная экипировка для плавания</h1>
+    <div class="container">
+      <div class="card-1 cards">
+        <div class="layer">
+          <img src="../IMAGES/Шапочка3.jpg" alt="">
+          <h3>Плавательная шапочка</h3>
+          <h2 class="gg3">Головной убор для плавания в воде, защищает волосы пловца от хлорированной воды.</h2>
+        </div>
+      </div>
+      <div class="card-2 cards">
+        <div class="layer">
+          <img src="../IMAGES/Плавки.jpg" alt="">
+          <h3>Плавки</h3>
+          <h2 class="gg3">Плавки для плавания из специального материала (полиамид с добавлением лайкры или смесь полиэстера с ПБТ).</h2>
+        </div>
+      </div>
+      <div class="card-3 cards">
+        <div class="layer-1">
+          <img src="../IMAGES/Очки.jpg" alt="">
+          <h3>Очки для плавания</h3>
+          <h2 class="gg4">Аксессуар для спортивного плавания, который призван обеспечить нормальное зрение под водой, а также защищают глаза от хлорных испарений.</h2>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <h2 class="gg7">Плавание</h2>
+      <div class="icons">
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-telegram"></i>
+      </div>
+      <h2 class="gg8">© 2022 Swimming Federation Almetyevsk</h2>
+    </div>
+  </footer>
+  <script>
+
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+
+  </script>
+
+  <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>

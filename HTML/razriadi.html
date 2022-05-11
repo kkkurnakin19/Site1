@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/razriadi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Разряды</title>
+</head>
+<body id="top">
+    <header>
+      <div class="top">
+        <a href="#top" style="position:fixed;bottom:30px;right:30px"><img src="../IMAGES/Стрелочка наверх.png" alt=""></a>
+        <nav>
+          <div class="logo">
+            <a href="../index.html">
+                <img src="../IMAGES/Иконка.svg" alt="" class="icon">
+            </a>
+          </div>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="../HTML/swimmers.html">Пловцы</a></li>
+              <li><a href="../HTML/razriadi.html">Разряды</a></li>
+              <li><a href="../HTML/ikipirovka.html">Экипировка</a></li>
+              <li><a href="../HTML/history_of_swimming.html">История плавания</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-header">
+          <h1>Разряды</h1>
+          <p>Занимаясь плаванием профессионально, спортсмен может получить спортивный разряд.</p>
+        </div>
+      </header>
+      <main>
+        <div class="razriadi">
+            <div class="text-1">
+                <p class="gg1">Как известно, в профессиональном плавании спортивные регалии насчитывают 9 позиций.</p>
+                <div class="img">
+                    <img src="../IMAGES/3страница.jpg" alt="2">
+                    <div class="layer">
+                      <h3>Спорт - это круто</h3>
+                    </div>
+                  </div>
+                <p class="text-2">Самым престижным званием для пловца считается разряд мастера спорта международного класса (МСМК). Его спортсмен получает за победу в международных соревнованиях с высоким статусом. Далее по списку следует разряд мастера спорта. Для его получения, в спортивной биографии необходимо иметь пункт о том, что вы призер в соревнованиях на уровне города или страны. Существуют и другие разряды по плаванию:</p>
+                <ul class="list4a">
+                    <li>КМС(кандидат в мастера спорта)</li>
+                    <li>Первый взрослый</li>
+                    <li>Второй взрослый</li>
+                    <li>Третий взрослый</li>
+                    <li>Первый юношеский</li>
+                    <li>Второй юношеский</li>
+                    <li>Третий юношеский</li>  
+                </ul>
+                <p>Для получения разряда, пловцу необходимо преодолеть на время определенную дистанцию. Все нормативы с указанием времени для того или иного разряда закреплены в официальной таблице Международной федерации плавания. Нормативы привязаны к дистанциям 50, 100, 200, 400, 800 и 1500 метров. Кроме того, еще важная длина бассейна, в котором выбранная дистанция будет преодолеваться. Напомним, что существуют бассейны длиной 25 метров ("короткая вода") и 50 метров ("длинная вода"). Учитываются заплывы и на открытой воде.</p>
+                <p>Для примера. Чтобы получить разряд мастера спорта международного класса, спортсмен должен преодолеть дистанцию 50 метров за 24, 19 секунд. Мастера спорта получают при преодолении этой же дистанции как минимум за 26, 05 сек, а кандидатом в мастера спорта можно стать, проплыв ее за 26, 85 с.</p>
+                <p>Если говорить о первом, втором и третьем взрослом разряде, их присваивают после преодоления 50 метров за 28, 15; 30, 75 и 32, 75 сек. соответственно. Для первого юношеского разряда необходимо преодолеть полсотни метров за 39, 75 сек., для второго юношеского - за 49, 75 сек. и для третьего юношеского - за 59, 25 сек.</p>
+            </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <h2>Плавание</h2>
+        <div class="icons">        
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+        <h2 class="gg8">© 2022 Swimming Federation Almetyevsk</h2>
+    </footer>
+      <script>
+
+        let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+    
+      </script>
+    
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>
